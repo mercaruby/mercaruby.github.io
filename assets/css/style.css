@@ -568,7 +568,7 @@ section .container {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials .testimonials-carousel,
+/* .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
 }
@@ -644,11 +644,39 @@ section .container {
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #ff5900;
-}
+} */
 
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+#resume .social-links {
+  margin-top: 20px;
+  display: flex;
+  margin-bottom: 60px;
+}
+
+#resume .social-links a {
+  font-size:25px;
+  text-transform: uppercase;
+  font-weight: 1000;
+  font-family: "Poppins";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  margin-right: 8px;
+  border-radius: 0%;
+  width: 340px;
+  height: 60px;
+}
+
+#resume .social-links a:hover {
+  background: #ff5900;
+}
+
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
