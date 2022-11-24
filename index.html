@@ -40,14 +40,15 @@
       <video id="bgVideo" loop="loop" autoplay="autoplay " playsinline="playsinline" muted="muted"
         data-bgvideo="data-bgvideo" poster="assets/img/bgFoto.jpg">
         <source src="assets/img/bg3.mp4" type="video/mp4">
-        <source src="assets/img/bg3.mov" type="video/mp4">
+        <source src="assets/img/bg3.mov" type="video/mov">
         <source src="assets/img/bg3.webm" type="video/webm">
       </video>
       <div class="capa"></div>
       <h1><a href="index.html">Ruby Díaz</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-      <h2>I'm a junior <span class="typed" data-typed-items="3D Generalist, VFx Artist, Graphic Designer, Video Editor"></span></h2>
+      <h2>I'm a junior <span class="typed"
+          data-typed-items="3D Generalist, VFx Artist, Graphic Designer, Video Editor"></span></h2>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -122,7 +123,7 @@
           </div>
           <p>
             Hi, I´m Rubén! <br> I am a student of a degree in video game design and development passionate about the VFx
-            sector. Despite that passion for a specific sector, I also consider myself a great 3D Generalist, having
+            sector. I also consider myself a great 3D Generalist, having
             knowledge about many kind of aspects (animation, modelling, texturing) of some 3D programs.
           </p>
         </div>
@@ -434,13 +435,12 @@
           <h3 class="resume-title">Sumary</h3>
           <div class="resume-item pb-0">
             <h4>Rubén Díaz</h4>
-            <p><em>Innovative apprentice in the 3D sector, with a few projects created. Creator of StreetVandal local
-                brand and with an ambitious project in hand that aims to link the world of augmented reality and
+            <p><em>Innovative apprentice in the 3D sector, with a few projects created. Co-founder of StreetVandal local
+                brand. Up to an ambitious project that aims to link the world of augmented reality and
                 fashion. </em></p>
             <p>
             <ul>
               <li>Griñón, Madrid (Spain)</li>
-              <li>Contact me to get my phone number</li>
               <li>gfxruby@gmail.com</li>
             </ul>
             </p>
@@ -448,7 +448,7 @@
 
           <h3 class="resume-title">Education</h3>
           <div class="resume-item">
-            <h4> DEGREE IN VIDEO GAME DESIGN &amp; DEVELOPMENT </h4>
+            <h4> DESIGN &amp; DEVELOPMENT DEGREE IN VIDEOGAMES (ENGINEERING) </h4>
             <h5>2019 - 2023</h5>
             <p><em>Universidad Rey Juan Carlos, Móstoles (Madrid)</em></p>
           </div>
@@ -605,14 +605,36 @@
         <div class="col-lg-12 d-flex justify-content-center">
           <ul id="portfolio-flters">
             <li data-filter="*" class="filter-active">All</li>
-            <!-- <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-card">Card</li>
-            <li data-filter=".filter-web">Web</li> -->
+            <!-- <li data-filter=".filter-media">Media</li> -->
+            <!-- <li data-filter=".filter-code">Code</li> -->
+            <!-- <li data-filter=".filter-web">Web</li> -->
           </ul>
         </div>
       </div>
 
       <div class="row portfolio-container">
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-media">
+          <div class="portfolio-wrap">
+            <video class="img-fluid" alt= "" loop="loop" autoplay="autoplay " playsinline="playsinline" muted="muted"
+              data-bgvideo="data-bgvideo" poster="assets/img/bgFoto.jpg">
+              <!-- <source src="assets/img/bg3.mp4" type="video/mp4"> -->
+              <source src="assets/img/portfolio/hologram.mp4" type="video/mp4">
+              <!-- <source src="assets/img/portfolio/holoMobile.mov" type="video/mov"> -->
+            </video>
+            <img src="assets/img/portfolio/portfolio-black.jpg" class="img-fluid" alt=""> 
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" -->
+                  <!-- class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a> -->
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external"
+                  class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
